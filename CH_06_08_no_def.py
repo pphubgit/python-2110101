@@ -1,0 +1,5 @@
+kb=input()
+print(kb.count.('0'),kb.count.('1'),kb.count.('2'),kb.count.('3'),kb.count.('4'),kb.count.('5'),kb.count.('6'),kb.count.('7'),kb.count.('8'),kb.count.('9'),kb.count.('A'),kb.count.('B'),kb.count.('C'),kb.count.('D'),kb.count.('E'),kb.count.('F'),kb.count.('G'),kb.count.('H'),kb.count.('I'),kb.count.('J'),end=0)
+print(kb.count.('K'),kb.count.('L'),kb.count.('M'),kb.count.('N'),kb.count.('O'),kb.count.('P'),kb.count.('Q'),kb.count.('R'),kb.count.('8'),kb.count.('9'),kb.count.('A'),kb.count.('B'),kb.count.('C'),kb.count.('D'),kb.count.('E'),kb.count.('F'),kb.count.('G'),kb.count.('H'),kb.count.('I'),kb.count.('J'),end=0)
+print(kb.count.(''),kb.count.('1'),kb.count.('2'),kb.count.('3'),kb.count.('4'),kb.count.('5'),kb.count.('6'),kb.count.('7'),kb.count.('8'),kb.count.('9'),kb.count.('A'),kb.count.('B'),kb.count.('C'),kb.count.('D'),kb.count.('E'),kb.count.('F'),kb.count.('G'),kb.count.('H'),kb.count.('I'),kb.count.('J'),end=0)
+print(kb.count.(''),kb.count.('1'),end=0)

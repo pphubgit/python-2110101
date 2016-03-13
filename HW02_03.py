@@ -1,0 +1,8 @@
+a=int(input())
+b=int(input())
+c=int(input())
+d=int(input())
+mx=max(a,b)
+mx2=max(c,d)
+mxx=int(max(mx,mx2))
+print(mxx)

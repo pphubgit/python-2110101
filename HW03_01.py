@@ -1,0 +1,37 @@
+kb=0
+point=[]
+n=0
+while(kb!=-1):
+    kb=int(input())
+    point.append('')
+    point[n]=kb
+    n=n+1
+for i in range(n-1):
+    if(point[i]>100):
+        print('Error')
+        continue
+    if(point[i]>=80):
+        print('A')
+        continue
+    if(point[i]>=75):
+        print('B+')
+        continue
+    if(point[i]>=70):
+        print('B')
+        continue
+    if(point[i]>=65):
+        print('C+')
+        continue
+    if(point[i]>=60):
+        print('C')
+        continue
+    if(point[i]>=55):
+        print('D+')
+        continue
+    if(point[i]>=50):
+        print('D')
+        continue
+    if(point[i]<55):
+        print('F')
+        continue
+    

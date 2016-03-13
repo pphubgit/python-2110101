@@ -1,0 +1,22 @@
+kb=input().split()
+month=int(kb[0])
+yr=int(kb[1])
+yr=yr-543
+a=yr%4
+_31_=[1,3,5,7,8,10,12]
+output=0
+if(month in _31_):
+    output=31
+elif(month==2):
+    if(a==0):
+        if(yr%400==0):
+            output=29
+        elif(yr%100==0):
+            output=28
+        else:
+            output=29
+    else:
+        output=28
+else:
+    output=30
+print(output)

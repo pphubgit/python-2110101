@@ -1,0 +1,12 @@
+yr=int(input())
+yr=yr-543
+a=yr%4
+if(a==0):
+    if(yr%400==0):
+        print('29')
+    elif(yr%100==0):
+        print('28')
+    else:
+        print('29')
+else:
+    print('28')

@@ -1,0 +1,30 @@
+import math
+kb=input()
+d, m, y=kb.split()
+d=int(d)
+m=int(m)
+y=int(y)
+if(m<3):
+    m=m+12
+    y=y-1
+##else:
+c=math.floor(y/100)
+k=y%100
+##print(k)
+##print(c)
+w=(d+math.floor(26*(m+1)/10)+k+math.floor(k/4)+math.floor(c/4)+5*c)%7
+##print(w)
+if(w==0):
+    print('SAT')
+elif(w==1):
+    print('SUN')
+elif(w==2):
+    print('MON')
+elif(w==3):
+    print('TUE')
+elif(w==4):
+    print('WED')
+elif(w==5):
+    print('THU')
+elif(w==6):
+    print('FRI')
