@@ -1,0 +1,41 @@
+#recursive process
+import time
+import random
+#$#
+time3=time.time()
+#$#
+st=set()#blank set announce
+def find_dup():#duplicate
+    num=random.randrange(100,1000)#random integer from 100 to 999
+    if(num not in st):
+        st.add(num) #เหมือนกลับไปวน loop
+        find_dup()
+    if(num in st):
+        return num
+print(find_dup())
+#$#
+time4=time.time()
+print('Total calculate = ',time4-time3,' sec')
+#$#
+
+#### ทำเพื่อพิสูจน์มห้เห็นว่า recursive เร็วกว่า
+
+#calculate speed program ในบรรทัด #$#
+#$#
+time1=time.time()
+#$#
+st1=set()
+ans=0
+while True:
+    num1=random.randrange(100,1000)#random integer from 100 to 999
+    if num1 not in st1:
+        st1.add(num1)
+    if num1 in st1:
+        ans=num1
+        break
+print(ans)
+#$#
+time2=time.time()
+print('Total calculate = ',time2-time1,' sec')
+#$#
+
